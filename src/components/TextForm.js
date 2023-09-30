@@ -91,16 +91,16 @@ export default function TextForm(props) {
                 {/* <label htmlFor="textArea" className="form-label">Example textarea</label> */}
                 <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor: props.mode==="dark"?"gray":"white", color:props.mode==="dark"?"white":"#042743"}} id="textArea" rows="8"></textarea>
             </div>
-            <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
-            <button className="btn btn-primary mx-1" onClick={handleLoClick}>Convert to Lowercase</button>
-            <button className="btn btn-primary mx-1" onClick={handleClearTextClick}>Clear Text</button>
-            <button className="btn btn-primary mx-1" onClick={handleSentenceCaseClick}>Sentence Case</button>
-            <button className="btn btn-primary mx-1" onClick={handleEncode64Click}>Encode to Base64</button>
-            <button className="btn btn-primary mx-1" onClick={handleDecode64Click}>Decode to Base64</button>
-            <button className="btn btn-primary mx-1" onClick={handleCapitalizedCaseClick}>Capitalized Case</button>
-            <button className="btn btn-primary mx-1" onClick={handleReverseTextClick}>Reverse Text</button>
-            <button className="btn btn-primary mx-1" onClick={handleCopyText}>Copy Text</button>
-            <button className="btn btn-primary mx-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+            <button className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to Uppercase</button>
+            <button className="btn btn-primary mx-1 my-1" onClick={handleLoClick}>Convert to Lowercase</button>
+            <button className="btn btn-primary mx-1 my-1" onClick={handleClearTextClick}>Clear Text</button>
+            <button className="btn btn-primary mx-1 my-1" onClick={handleSentenceCaseClick}>Sentence Case</button>
+            <button className="btn btn-primary mx-1 my-1" onClick={handleEncode64Click}>Encode to Base64</button>
+            <button className="btn btn-primary mx-1 my-1" onClick={handleDecode64Click}>Decode to Base64</button>
+            <button className="btn btn-primary mx-1 my-1" onClick={handleCapitalizedCaseClick}>Capitalized Case</button>
+            <button className="btn btn-primary mx-1 my-1" onClick={handleReverseTextClick}>Reverse Text</button>
+            <button className="btn btn-primary mx-1 my-1" onClick={handleCopyText}>Copy Text</button>
+            <button className="btn btn-primary mx-1 my-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
         </div>
         <div className="container my-3" style={{color: props.mode==="dark"?"white":"#042743"}}>
             <h2>Your Text summary</h2>
